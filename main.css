@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+
+}
+
+h4, h5, h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    /* border: 5px solid black; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* header section  */
