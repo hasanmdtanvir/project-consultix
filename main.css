@@ -453,3 +453,162 @@ header{
 .card-item3 {
     text-align: right;
 }
+
+/* progress section start  */
+.progress-section{
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.half-width img{
+    width: 100%;
+}
+.img-block{
+    position: relative;
+}
+.img-block i{
+    /* display: inline-block; */
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: white;
+    background-color:#01bdaa;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+}
+.progress-area{
+    background-color:#001A56;
+    /* height: 200px; */
+    padding: 50px 0;
+    padding-left: 70px;
+    padding-right: calc(100% - 1200px / 2);
+    color: white;
+    margin-left: -50px;
+    position: relative;
+    z-index: 100;
+}
+.progress-title{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: 'Rubik';
+}
+.progress-bar-title{
+    width: 50%;
+    display: inline-block;
+    white-space: nowrap;
+    /* background-color: red; */
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.progress-bar-percentage{
+    display: inline-block;
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+    color: white;
+}
+.progress-bar-percentage span{
+    background-color: black;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.progress-bar-outer{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.progress-bar-inner1, .progress-bar-inner2, .progress-bar-inner3{
+    
+    height: 5px;
+    border-radius: 5px;
+    background-color:#01bdaa;
+}
+.progress-bar-inner1{
+    width: 80%;
+}
+.progress-bar-inner2{
+    width: 90%;
+}
+.progress-bar-inner3{
+    width: 70%;
+}
+
+/* progress section end  */
+
+/* traffic and conversation section start  */
+    .traffic-conversation-section{
+        margin-bottom: 100px;
+    }
+    .traffic-conversation-title{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .traffic-conversation-left-segment{
+        display: inline-block;
+        width: calc(50% - 10px);
+        height: 800px;
+        margin-right: 10px;
+        /* border: 1px solid red; */
+        /* height: 200px; */
+    }
+    .traffic-conversation-right-segment{
+        display: inline-block;
+        width: calc(50% - 10px);
+        margin-left: 10px;
+        height: 800px;
+        /* border: 1px solid red; */
+        /* height: 200px; */
+    }
+    .traffic-conversation-left-segment-img, .traffic-conversation-right-segment-img, .traffic-conversation-left-segment-content, .traffic-conversation-right-segment-content{
+        width: 50%;
+        height: 300px;
+        /* border: 1px solid green; */
+        /* height: 200px; */
+        display: inline-block;
+        /* padding: 20px; */
+        /* vertical-align: top; */
+    }
+    .traffic-conversation-left-segment, .traffic-conversation-right-segment{
+        vertical-align: top;
+        /* height: auto; */
+        /* height: auto; */
+    }
+     .traffic-conversation-left-segment-content, .traffic-conversation-right-segment-content{
+        vertical-align: top;
+     } 
+     
+    .traffic-conversation-left-segment-img img, .traffic-conversation-right-segment-img img{
+        width: 100%;
+        /* height: 300px; */
+        height: 100%;
+    }
+    .traffic-conversation-left-segment-content, .traffic-conversation-right-segment-content{
+        background-color: #F2F2F4;
+        height: 100%s;
+        /* padding: 20px; */
+        /* height:fit-content; */
+        padding: 20px 20px;
+    }
+    .traffic-conversation-left-segment-content .tc-common-text, .traffic-conversation-right-segment-content .tc-common-text{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .traffic-conversation-left-segment-content h2, .traffic-conversation-right-segment-content h2{
+        font-size: 1.2em;
+        color: black;
+        text-transform: capitalize;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+/* traffic and conversation section end  */
