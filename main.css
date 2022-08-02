@@ -423,9 +423,7 @@ header{
     color: #01bdaa;
     margin-bottom: 5px;
 }
-.invest-section-card h2, p{
-    /* margin-bottom: 20px; */
-}
+
 .invest-section-card .card-item2{
     width: calc(100% / 2);
     display: inline-block;
@@ -677,3 +675,56 @@ header{
     text-transform: uppercase;
 }
 /* solutions section end  */
+
+/* accordion section start  */
+.accordion-section{
+    margin-bottom: 100px;
+}
+.accordion-section-title{
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.accordion-body{
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 20px;
+}
+.accordion-title{
+    display: block;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    
+}
+.accordion-body input{
+    display: none;
+}
+.accordion-body p{
+    display: none;
+    padding: 20px;
+}
+.accordion-body > input:checked ~ .accordion-title{
+    background-color:#01bdaa;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+}
+.accordion-body input:checked ~ p{
+    display: block;
+}
+.accordion-title i{
+    position: absolute;
+    right: 20px;
+}
+.accordion-body input:checked ~ .accordion-title > i{
+    transform: rotate(180deg);
+}
