@@ -546,7 +546,7 @@ header{
 
 /* traffic and conversation section start  */
     .traffic-conversation-section{
-        margin-bottom: 100px;
+        margin-bottom: -400px;
     }
     .traffic-conversation-title{
         text-align: center;
@@ -595,7 +595,7 @@ header{
     }
     .traffic-conversation-left-segment-content, .traffic-conversation-right-segment-content{
         background-color: #F2F2F4;
-        height: 100%s;
+        /* height: 100%; */
         /* padding: 20px; */
         /* height:fit-content; */
         padding: 20px 20px;
@@ -612,3 +612,68 @@ header{
         margin-bottom: 5px;
     }
 /* traffic and conversation section end  */
+
+/* reason section start  */
+.reason-section{
+    background-color:#001A56;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+/* reason section end  */
+.reason-section-title{
+    margin-bottom: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.reason-partition{
+    width: calc(100% / 4);
+    display: inline-block;
+}
+.numbering{
+    background-color:#01bdaa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.reason-partition span{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* solutions section start  */
+.solution-section{
+    margin-bottom: 100px;
+}
+.solution-section-title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.solution-profile{
+    margin-top: 20px;
+    width: calc(100% / 3 - 10px);
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: inline-block;
+    vertical-align: top;
+}
+.solution-profile img{
+    width: 100%;
+}
+.solution-content{
+    text-align: center;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.solution-content p{
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* solutions section end  */
