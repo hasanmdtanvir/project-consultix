@@ -728,3 +728,116 @@ header{
 .accordion-body input:checked ~ .accordion-title > i{
     transform: rotate(180deg);
 }
+
+/* accordion section end */
+.top-footer{
+    background: linear-gradient(to right, rgba(50, 70, 80, 0.7), rgba(30, 20, 150, 0.7)), url(./image//services-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top-footer-title{
+    display: inline-block;
+    width: 60%;
+    color: white;
+    text-transform: capitalize;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+}
+.footer-button{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    text-align: right;
+    /* border: 1px solid green; */
+}
+.footer-button a{
+    display: inline-block;
+}
+.bottom-footer{
+    background: linear-gradient(to right, rgba(7, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./image/footer-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+.bottom-content{
+    width: calc(100% / 4 - 10px);
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    display: inline-block;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    vertical-align: top;
+    color: white;
+    
+}
+.bottom-content h1{
+    margin-bottom: 30px;
+}
+.bottom-content p{
+    font-weight: bold;
+}
+/* .bottom-content:first-child{
+    margin-left: 0;
+} */
+.bottom-content:last-child{
+    margin-right: 0px;
+}
+.bottom-icon{
+    /* display: inline-block; */
+    width: 10%;
+    vertical-align: top;
+    color: orange;
+}
+.bottom-text{
+    display: inline-block;
+    width: calc(90% - 10px);
+    margin-left: 10px;
+    vertical-align: top;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: bold;
+    /* display: inline-block; */
+}
+.clock{
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.footer-last-area{
+    background-color: #253242;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: rgba(0,0,0,0.2);
+    color: white;
+    font-weight: 100;
+    position: relative;
+    
+}
+.footer-last-area-left, .footer-last-area-right{
+    display: inline-block;
+    width: 50%;
+}
+.footer-last-area-right{
+    text-align: right;
+}
+.footer-last-area-right span{
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+.footer-last-area .fa-angle-down{
+    transform: rotate(180deg);
+    position: absolute;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 100px;
+    left: 10px;
+    top: 10px;
+}
