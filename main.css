@@ -757,7 +757,7 @@ header{
     display: inline-block;
 }
 .bottom-footer{
-    background: linear-gradient(to right, rgba(7, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./image/footer-banner-2.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0,0,0, 0.8)), url(./image/footer-banner-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
